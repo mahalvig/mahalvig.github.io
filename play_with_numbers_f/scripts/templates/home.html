@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  </head>
+  <body>
+    <div class="container">
+        <div class="box">
+            <a class="link-button" href="{{ url_for('_random') }}">Roll a random number </a>
+        </div>
+        <div class="box">
+            <a class="link-button" href="{{ url_for('random_with_limit', limit=10)}}">Roll a random number with a limit </a>
+        </div>
+        <div class="box">
+            <a class="link-button" href="{{ url_for('roll_a_dice') }}">Roll a dice </a>
+        </div>
+        <div class="box">
+            <a class="link-button" href="{{ url_for('roll_a_dhayam') }}">Roll a dhayam</a>
+        </div>
+    </div> <!-- container end-->
+  </body>
+</html>
