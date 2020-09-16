@@ -1,0 +1,27 @@
+
+
+.container {
+  width: 30%;
+  margin: auto;
+  padding: 10px;
+}
+
+.box {
+  background-color: #ffffff;
+  width: 300px;
+  border: 1px solid #444;
+  padding: 50px;
+  margin: 20px;
+  float:left
+}
+
+.link-button {
+ color: #444;
+ padding: 14px 25px;
+ font-size: 200%;
+ font-family:fantasy;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ width:250px;
+}
